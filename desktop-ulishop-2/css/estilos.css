@@ -1,0 +1,87 @@
+#loguito {
+    padding: 7px;
+    width: 60px;
+    margin-left: 5px;
+
+   }
+
+#producto{
+    display: none;
+}
+#motorista{
+    display: none;
+}
+#ordenes{
+    display: none;
+}
+
+.main {
+    height: 100vh;
+}
+
+.main-2{
+    /* height: 100vh; */
+    background-color: wheat;
+    height:100%;
+    width:100%;
+}
+.main-3{
+    height: 100vh;
+    background-color: wheat;
+}
+.main-4{
+    height: 100vh;
+    background-color: white;
+}
+#fondo{
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height:100%;
+    width:100%;
+}
+
+#empi{
+    max-width: 250px;
+    margin-right: 65px;
+    margin-left: 65px;
+    position: center center;
+    margin-bottom: 65px;
+    cursor: pointer;
+
+}
+#empi:hover {
+    filter: grayscale(1);
+   
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+
+.imgRedonda {
+    width:60px;
+    height:60px;
+    border-radius:150px;
+     /* margin-right: 170px; */
+  }
+
+#ordenes{
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 65px;
+    position: center center;
+    margin-bottom: 50px;
+    cursor: pointer;
+    width: 700px;
+
+}
+
+#m:hover{
+    filter: grayscale(1);
+}

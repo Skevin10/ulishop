@@ -1,0 +1,130 @@
+body{
+    background-color: white; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url(img/bg.jpg) */
+        margin: 0;  
+        
+  }
+  
+
+  #texto-prueba{
+    font-size: 1.5rem;
+  }
+  
+  #contenido {
+      background-color: #FA4252;
+      height: 100vh;
+    }
+
+    #contenido-sesion {
+        background-color: white;
+        height: 100vh;
+        display: none;
+      }
+    #barra{
+      display: none;
+    }
+    
+    #logo {
+     padding: 15px;
+     width: 150px;
+     padding-left: 80px;
+
+    }
+    #loguito {
+      padding: 7px;
+      width: 60px;
+      margin-left: 5px;
+ 
+     }
+   
+  
+    #formulario {
+      background-color: #FA4252; 
+      color: #ffffff;
+      width: 330px  !important; /* ancho */
+      height: 300px  !important; /* alto */
+      border-radius: 7px  !important;
+      padding: 30px 60px  !important; /* centrar texto */
+      margin-left: auto  !important;  /* centrando el div */
+      margin-right: auto  !important;  /* centrando el div */
+      /* transition: background-color 1s ease-in-out; */
+      transition: all 0.3s ease-in-out  !important;
+    }
+    #formulario-sesion {
+        background-color: white; 
+        color: black;
+        width: 330px; /* ancho */
+        height: 300px; /* alto */
+        border-radius: 7px;
+        padding: 30px 60px; /* centrar texto */
+        margin-left: auto;  /* centrando el div */
+        margin-right: auto;  /* centrando el div */
+        /* transition: background-color 1s ease-in-out; */
+        transition: all 0.3s ease-in-out;
+      }
+      #formulario-sesion h1{
+        padding: 30px 60px; /* centrar texto */
+        text-align: center;
+      }
+
+  .control{
+    width:100%  !important;
+    padding: 15px  !important;
+    box-sizing: border-box  !important; /* incluye los bordes para que quede perfecto centrado */
+    font-size: 1rem  !important; /* texto mas grande con unidades relativas al contenedor 16px por defecto */
+    margin-bottom: 10px  !important; /*separar los botones */
+    border-radius: 8px  !important;   /*esquinas redondeadas*/
+    border-width: 0px  !important;   /* borde 3D CON RELIEVE */
+    
+  }
+  
+  .caja-texto{
+    background-color: #c5c5c5; /*color del button o los input pero creamos el . solo para 2*/
+    
+  }
+  
+  .boton {
+    background-color: #E50916  !important;
+    border-style: solid  !important;
+    border-color: white  !important;
+    border-width: 1px  !important;
+    font-weight: bold  !important;
+    color: #ffffff;
+    margin-top: 30px  !important; /*margen para separarlo hacia abajo de los demas*/
+    cursor: pointer  !important;  /* para que aparezca la manita*/
+  }
+  .boton-sesion {
+    background-color: #FA7199;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 30px; /*margen para separarlo hacia abajo de los demas*/
+    cursor: pointer;  /* para que aparezca la manita*/
+  }
+  
+  .boton:hover {  /*selector cuando pasamos el cursor encima de una etiqueta*/
+  background-color: #aa0510; /* Cambiar el color del boton al estar encima*/
+  text-decoration: underline;  /*poner una linea debaja cuando selecciono*/
+  }
+  .boton-sesion:hover {  /*selector cuando pasamos el cursor encima de una etiqueta*/
+    background-color: rgba(170, 5, 16, 0.466); /* Cambiar el color del boton al estar encima*/
+    text-decoration: underline;  /*poner una linea debaja cuando selecciono*/
+    }
+  
+  #help-link {
+    float: left;
+    color: rgb(119, 117, 117);
+    /* text-decoration: none; Quitar el subrayado del link */
+    font-size: .8rem;
+  }
+  
+  #help-link:hover {
+    text-decoration: underline;
+  }
